@@ -28,36 +28,37 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Leaderboard <a name="about-project"></a>
+# 📖 REACT TODO <a name="about-project"></a>
 
-**Leaderboard** is a project to learn how to consume an REST API.
+The **REACT TODO** project is a web application that enables users to create and manage a list of tasks or to-dos. The application is built using the React JavaScript library, which allows for fast and efficient rendering of user interfaces. The user interface for the application is designed to be clean and intuitive, with a simple list-based layout that allows users to quickly add new tasks, mark tasks as complete, and delete completed tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>HTML</summary>
+  <summary>Client</summary>
   <ul>
-    <li>REACT</li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>CSS</summary>
+  <summary>Server</summary>
   <ul>
-    <li>CSS</li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Javascript</summary>
+<summary>Database</summary>
   <ul>
-    <li>Javascript</li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -65,105 +66,109 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Write your name**
-- **Submit scores**
-- **Get all the ranking in order**
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- NO DEPLOYED YET
+- [Live Demo Link](https://marcoalmada.online)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-# Getting Started with Create React App
+To get a local copy up and running, follow these steps.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Prerequisites
 
-## Available Scripts
+In order to run this project you need:
 
-In the project directory, you can run:
+<!--
+Example command:
 
-### `npm start`
+```sh
+ gem install rails
+```
+ -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone this repository to your desired folder:
 
-### `npm test`
+<!--
+Example commands:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
 
-### `npm run build`
+### Install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Install this project with:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!--
+Example command:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+  cd my-project
+  gem install
+```
+--->
 
-### `npm run eject`
+### Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run the project, execute the following command:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!--
+Example command:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+  rails server
+```
+--->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Run tests
 
-## Learn More
+To run tests, run the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!--
+Example command:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+<!--
+Example:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Author**
 
 - GitHub: [@MarcoDDM](https://github.com/MarcoDDM)
-- Twitter: [@nerdpiola](https://twitter.com/nerdpiola)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/marcoalmadaar)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -172,9 +177,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Different style**
-- [ ] **Users**
-- [ ] **Sharing**
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,7 +197,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give a star to the project.
+If you like this project you can give a star...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,7 +205,21 @@ If you like this project give a star to the project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to all my coding partners.
+I would like to thank to my coding partners.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
